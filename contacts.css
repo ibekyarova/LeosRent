@@ -1,0 +1,137 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+*{
+	word-wrap: break-word;
+}
+body, section, header, footer{
+	margin: 0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+    width: 100%;
+}
+/*NAVIGATION*/
+nav.top-navigation{
+	width: 100%;
+}
+
+nav.top-navigation ul img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 40px;
+    top: -25px;
+}
+
+nav.top-navigation ul{
+	background: #000000;	
+	text-align: center;
+	padding: 10;
+	margin: 0;
+}
+nav.top-navigation ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+    margin: 10px;
+    color: white;
+}
+nav.top-navigation ul li a{
+	color: white;
+	text-decoration: none;
+}
+nav.top-navigation ul li a:hover{
+	color: #d52027;
+}
+nav.top-navigation ul li a.selected{
+	color: #d52027;
+}
+#phone{
+    position: absolute;
+    right: 120px;
+}
+#phone:hover{
+    color: #d52027;
+    cursor: pointer;
+}
+/*SITE BODY*/
+body{
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+body div{
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top;
+}
+#contact{
+    position: relative;
+    left: 30px;
+}
+.phone-number:hover{
+    color: #d52027;
+    cursor: pointer;
+}
+#container{
+    position: relative;
+    left: 80px;
+    width: 500px;
+}
+#map{
+    position: relative;
+    right: 50px;
+    top: 40px;
+}
+.feedback-input {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:100;
+  font-size: 12px;
+  border-radius: 5px;
+  line-height: 20px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 9px;
+  margin-bottom: 10px;
+  width:50%;
+  box-sizing: border-box;
+  outline:0;
+}
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 50%;
+  background:#d52027;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:12px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#000000; }
+/*FOOTER*/
+footer{
+	background: #080820;
+	color: white;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script
+            src="https://kit.fontawesome.com/084ea366fd.js"
+            crossorigin="anonymous"
+        ></script>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="contacts.css" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="img/favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="img/png"
+            sizes="32x32"
+            href="img/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="img/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="img/favicon/site.webmanifest" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+        <title>Бусове под наем - Пловдив</title>
+    </head>
+    <header>
+        <nav class="top-navigation">
+            <ul>
+                <li><a href="index.html" class="selected">Начало</a></li>
+                <li><a href="uslugi.html">Услуги</a></li>
+                <img src="img/Untitled-2.png" />
+                <li><a href="">Новини</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+                <!-- <img src="img/b5d7198734ee5174b581630628ecfdd6.png" id="icon"> -->
+                <li id="phone">+359 988 944 305</li>
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+        <div id="contact">
+            <h1>Контакти</h1>
+            <p class="location">
+                <i class="fas fa-map-marker-alt"></i> гр. Пловдив, бул. Пещерско
+                шосе 149
+            </p>
+            <p class="work-hours">
+                <i class="far fa-clock"></i> Без почивен ден
+            </p>
+            <p class="phone-number">
+                <i class="fas fa-phone-alt"></i> +359 894 28 80 80
+            </p>
+        </div>
+        <div id="container">
+            <h1>Пишете ни</h1>
+            <form id="contact-form" method="post" action="contact-php.php">
+                <input
+                    name="name"
+                    type="text"
+                    class="feedback-input"
+                    placeholder="Вашето име" required
+                />
+                <input
+                    name="email"
+                    type="text"
+                    class="feedback-input"
+                    placeholder="Имейл адрес" required
+                />
+                <textarea
+                    name="message"
+                    class="feedback-input"
+                    placeholder="Вашето съобщение" required
+                ></textarea>
+                <input type="submit" value="Изпрати" class="feedback-input"/>
+            </form>
+        </div>
+        <div id="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2958.8650316989797!2d24.697558514798274!3d42.131772557481376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14accfc4671e2db3%3A0x1f4287f03f6cc284!2sbulevard%20%22Peshtersko%20Shose%22%20149%2C%204001%20g.k.%20Hristo%20Smirnenski%2C%20Plovdiv!5e0!3m2!1sen!2sbg!4v1612775591748!5m2!1sen!2sbg"
+                width="350"
+                height="300"
+                frameborder="0"
+                style="border:0;"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+            ></iframe>
+        </div>
+    </body>
+    <footer class="site-footer">
+        Copyright &reg; 2021 LeosRent. Всички права запазени.
+    </footer>
+</html>
